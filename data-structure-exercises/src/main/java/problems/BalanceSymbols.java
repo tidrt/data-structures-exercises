@@ -1,9 +1,9 @@
-package problem;
+package problems;
 
 import java.util.Set;
 import java.util.Stack;
 
-public class BalancingSymbols {
+public class BalanceSymbols {
 
     public static boolean solve(String expression){
         Set<Character> openSymbols = Set.of('(','[','{');
